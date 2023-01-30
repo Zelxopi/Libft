@@ -6,7 +6,7 @@
 /*   By: mtrembla <mtrembla@student.42quebec>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/15 12:49:04 by mtrembla          #+#    #+#             */
-/*   Updated: 2023/01/23 16:31:51 by mtrembla         ###   ########.fr       */
+/*   Updated: 2023/01/30 11:29:40 by mtrembla         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,24 +47,3 @@ char	*ft_gnl(int fd)
 	}
 	return (line);
 }
-
-// char	*ft_gnljoin(char *s, char c)
-// {
-// 	char	*out;
-// 	int		n;
-
-// 	n = 2;
-// 	if (s)
-// 		while (*s && s++)
-// 			n++;
-// 	out = malloc(n * sizeof(char) + 1);
-// 	out[--n] = '\0';
-// 	out[--n] = c;
-// 	if (s)
-// 	{
-// 		while (n--)
-// 			out[n] = *--s;
-// 		free(s);
-// 	}
-// 	return (out);
-// }
